@@ -1,0 +1,33 @@
+.NavBar{
+    margin-top: 10px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .ConteinerBtnNav{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+  }
+  
+  .btnNav{
+    border: none;
+    background-color: #ffffff;
+    padding:5;
+    font-size: 26;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .btnNav:hover{
+    transition: 0.5s;
+    color: orangered
+  }
+
+  .logo{
+    font-size: 30;
+    font-weight: 900; 
+    color: orangered;   
+  }

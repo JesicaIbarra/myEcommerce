@@ -1,5 +1,11 @@
 .App {
-  text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    color: #464646;
+    text-align: center;
+    background-color: #ffffff;
 }
 
 .App-logo {
