@@ -1,0 +1,8 @@
+.containerCard{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 30vh;
+    border: 2px solid darkgray;
+    border-radius: 15px;
+}

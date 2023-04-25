@@ -12,16 +12,18 @@
     justify-content: space-between;
   }
   
-  .btnNav{
+  .Option{
     border: none;
     background-color: #ffffff;
     padding:5;
     font-size: 26;
     font-weight: 600;
     text-transform: uppercase;
+    text-decoration: none;
+    color: darkgray;
   }
 
-  .btnNav:hover{
+  .Option:hover{
     transition: 0.5s;
     color: orangered
   }
