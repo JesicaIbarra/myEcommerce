@@ -9,7 +9,7 @@ const products =[
         description:'descripcion del producto'
     },
     {
-        id:'1',
+        id:'2',
         name:'tablet',
         price: 7000,
         category:'tablet',
@@ -18,10 +18,10 @@ const products =[
         description:'descripcion del producto'
     },
     {
-        id:'1',
-        name:'netbook',
+        id:'3',
+        name:'notbook',
         price: 7000,
-        category:'netbook',
+        category:'notbook',
         img:' ',
         stock:25,
         description:'descripcion del producto'
