@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import '../Item/item.css'
 
-const Item = ({id, name, prece, img, stock})=>{
+const Item = ({id, name, price, img, stock})=>{
     return (
         <article className="containerCard">
             <header>
@@ -14,7 +14,7 @@ const Item = ({id, name, prece, img, stock})=>{
             </picture>
             <section>
                 <p>
-                    precio: {prece}
+                    precio: {price}
                 </p>
                 <p>
                     stock disponible: {stock}

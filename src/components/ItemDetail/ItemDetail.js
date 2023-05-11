@@ -1,6 +1,6 @@
 import ItemCount from "../ItemCount/ItemCount"
 
-const ItemDetail =({id, name, img, category, description, prece, stock})=>{
+const ItemDetail =({id, name, img, category, description, price, stock})=>{
     return (
         <article>
             <header>
@@ -13,7 +13,7 @@ const ItemDetail =({id, name, img, category, description, prece, stock})=>{
             </picture>
             <section>
                 <p>
-                    precio: {prece}
+                    precio: {price}
                 </p>
                 <p>
                     stock disponible: {stock}

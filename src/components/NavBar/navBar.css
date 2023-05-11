@@ -6,6 +6,10 @@
     justify-content: space-around;
   }
 
+  .NavLink{
+    text-decoration: none;
+  }
+
   .ConteinerBtnNav{
     display: flex;
     width: 50%;
@@ -26,6 +30,10 @@
   .Option:hover{
     transition: 0.5s;
     color: orangered
+  }
+
+  .logoComplete{
+    color: rgb(55, 53, 53)
   }
 
   .logo{

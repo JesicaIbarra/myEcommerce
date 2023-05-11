@@ -6,8 +6,8 @@ import { NavLink, Link } from "react-router-dom";
 const NavBar =()=>{
     return(
         <nav className='NavBar'>
-            <Link to='/'>
-            <h2><strong className='logo'>E</strong>commerce</h2>
+            <Link to='/' className ='NavLink'>
+            <h2 className='logoComplete'><strong className='logo'>E</strong>commerce</h2>
             </Link>
             
             <div className='ConteinerBtnNav'>
